@@ -1,6 +1,7 @@
 variable "project_id" {
   description = "The ID of the project in which to provision resources."
   type        = string
+  default = "gcp-test-388711"
 }
 
 variable "location" {
