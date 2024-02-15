@@ -13,10 +13,11 @@ variable "location" {
 variable "keyring" {
   description = "Keyring name."
   type        = string
+  default = "test01"
 }
 
 variable "keys" {
   description = "Key names."
   type        = list(string)
-  default     = []
+  default     = [testep]
 }
